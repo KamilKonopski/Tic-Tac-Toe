@@ -1,2 +1,2 @@
 # Moja-Pierwsza-Strona
-https://kamilkonopski.github.io/Moja-Pierwsza-Strona/
+Jest to moja pierwsza strona stworzona przy pomocy html, css i trochę JS
