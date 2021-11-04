@@ -104,10 +104,10 @@
     <h1>Skontaktuj się ze mną</h1>
     <div class="wrap clearfix">
 
-      <form>
-        <input type="text" placeholder="Twoje imię">
-        <input type="text" placeholder="Email">
-        <textarea placeholder="Twoja wiadomość"></textarea>
+      <form action='mail.php' method="post">
+        <input type="text" name="name" placeholder="Twoje imię">
+        <input type="text" name="email" placeholder="Email">
+        <textarea name="message" placeholder="Twoja wiadomość"></textarea>
         <button>Wyślij wiadomość</button>
       </form>
       <div class="socials">
