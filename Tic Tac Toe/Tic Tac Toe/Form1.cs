@@ -33,7 +33,7 @@ namespace Tic_Tac_Toe
             // 
             // btn1
             // 
-            this.btn1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn1.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn1.Location = new System.Drawing.Point(35, 52);
             this.btn1.Name = "btn1";
@@ -44,7 +44,7 @@ namespace Tic_Tac_Toe
             // 
             // btn2
             // 
-            this.btn2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn2.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn2.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn2.Location = new System.Drawing.Point(191, 52);
             this.btn2.Name = "btn2";
@@ -55,7 +55,7 @@ namespace Tic_Tac_Toe
             // 
             // btn3
             // 
-            this.btn3.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn3.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn3.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn3.Location = new System.Drawing.Point(347, 52);
             this.btn3.Name = "btn3";
@@ -66,7 +66,7 @@ namespace Tic_Tac_Toe
             // 
             // btn4
             // 
-            this.btn4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn4.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn4.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn4.Location = new System.Drawing.Point(35, 208);
             this.btn4.Name = "btn4";
@@ -77,7 +77,7 @@ namespace Tic_Tac_Toe
             // 
             // btn5
             // 
-            this.btn5.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn5.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn5.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn5.Location = new System.Drawing.Point(191, 208);
             this.btn5.Name = "btn5";
@@ -88,7 +88,7 @@ namespace Tic_Tac_Toe
             // 
             // btn6
             // 
-            this.btn6.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn6.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn6.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn6.Location = new System.Drawing.Point(347, 208);
             this.btn6.Name = "btn6";
@@ -99,7 +99,7 @@ namespace Tic_Tac_Toe
             // 
             // btn7
             // 
-            this.btn7.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn7.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn7.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn7.Location = new System.Drawing.Point(35, 364);
             this.btn7.Name = "btn7";
@@ -110,7 +110,7 @@ namespace Tic_Tac_Toe
             // 
             // btn8
             // 
-            this.btn8.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn8.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn8.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn8.Location = new System.Drawing.Point(191, 364);
             this.btn8.Name = "btn8";
@@ -121,7 +121,7 @@ namespace Tic_Tac_Toe
             // 
             // btn9
             // 
-            this.btn9.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn9.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btn9.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn9.Location = new System.Drawing.Point(347, 364);
             this.btn9.Name = "btn9";
