@@ -264,8 +264,50 @@ namespace Tic_Tac_Toe
 
         private void Check()
         {
+            if (btn1.Text != "" && btn1.Text == btn2.Text && btn2.Text == btn3.Text)
+            {
+                Won();
+            }
+            else if (btn4.Text != "" && btn4.Text == btn5.Text && btn5.Text == btn6.Text)
+            {
+                Won();
+            }
+            else if (btn7.Text != "" && btn7.Text == btn8.Text && btn8.Text == btn9.Text)
+            {
+                Won();
+            }
+            else if (btn1.Text != "" && btn1.Text == btn4.Text && btn4.Text == btn7.Text)
+            {
+                Won();
+            }
+            else if (btn2.Text != "" && btn2.Text == btn5.Text && btn5.Text == btn8.Text)
+            {
+                Won();
+            }
+            else if (btn3.Text != "" && btn3.Text == btn6.Text && btn6.Text == btn9.Text)
+            {
+                Won();
+            }
+            else if (btn1.Text != "" && btn1.Text == btn5.Text && btn5.Text == btn9.Text)
+            {
+                Won();
+            }
+            else if (btn3.Text != "" && btn3.Text == btn5.Text && btn5.Text == btn7.Text)
+            {
+                Won();
+            }
+            else if (move == 9)
+            {
+                MessageBox.Show("Remis", "Koniec gry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                NewGame();
+            }
+        }
+
+        private void Won()
+        {
             throw new NotImplementedException();
         }
+
         private void btn1_Click(object sender, EventArgs e)
         {
             move++;
