@@ -305,7 +305,12 @@ namespace Tic_Tac_Toe
 
         private void Won()
         {
-            throw new NotImplementedException();
+            MessageBox.Show("Wygrywa gracz: " + (playerO ? "O" : "X"), "Wygrana!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            if (playerO)
+                resultO.Text = ((int.Parse(resultO.Text)) + 1).ToString();
+            else
+                resultX.Text = ((int.Parse(resultX.Text)) + 1).ToString();
+            NewGame();
         }
 
         private void btn1_Click(object sender, EventArgs e)
