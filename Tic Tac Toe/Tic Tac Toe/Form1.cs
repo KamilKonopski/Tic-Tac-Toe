@@ -49,6 +49,7 @@ namespace Tic_Tac_Toe
             this.btn2.Size = new System.Drawing.Size(150, 150);
             this.btn2.TabIndex = 1;
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // btn3
             // 
@@ -58,6 +59,7 @@ namespace Tic_Tac_Toe
             this.btn3.Size = new System.Drawing.Size(150, 150);
             this.btn3.TabIndex = 2;
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn4
             // 
@@ -67,6 +69,7 @@ namespace Tic_Tac_Toe
             this.btn4.Size = new System.Drawing.Size(150, 150);
             this.btn4.TabIndex = 3;
             this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn5
             // 
@@ -76,6 +79,7 @@ namespace Tic_Tac_Toe
             this.btn5.Size = new System.Drawing.Size(150, 150);
             this.btn5.TabIndex = 4;
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn6
             // 
@@ -85,6 +89,7 @@ namespace Tic_Tac_Toe
             this.btn6.Size = new System.Drawing.Size(150, 150);
             this.btn6.TabIndex = 5;
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // btn7
             // 
@@ -94,6 +99,7 @@ namespace Tic_Tac_Toe
             this.btn7.Size = new System.Drawing.Size(150, 150);
             this.btn7.TabIndex = 6;
             this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
             // btn8
             // 
@@ -103,6 +109,7 @@ namespace Tic_Tac_Toe
             this.btn8.Size = new System.Drawing.Size(150, 150);
             this.btn8.TabIndex = 7;
             this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
             // btn9
             // 
@@ -112,6 +119,7 @@ namespace Tic_Tac_Toe
             this.btn9.Size = new System.Drawing.Size(150, 150);
             this.btn9.TabIndex = 8;
             this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
             // label1
             // 
@@ -254,6 +262,10 @@ namespace Tic_Tac_Toe
             }
         }
 
+        private void Check()
+        {
+            throw new NotImplementedException();
+        }
         private void btn1_Click(object sender, EventArgs e)
         {
             move++;
@@ -263,11 +275,113 @@ namespace Tic_Tac_Toe
             {
                 Check();
             }
+            playerO = !playerO;
+            whoPlayedLabel.Text = playerO ? "O" : "X";
         }
 
-        private void Check()
+
+        private void btn2_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            move++;
+            ((Button)sender).Text = playerO ? "O" : "X";
+            ((Button)sender).Enabled = false;
+            if (move >= 5)
+            {
+                Check();
+            }
+            playerO = !playerO;
+            whoPlayedLabel.Text = playerO ? "O" : "X";
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            move++;
+            ((Button)sender).Text = playerO ? "O" : "X";
+            ((Button)sender).Enabled = false;
+            if (move >= 5)
+            {
+                Check();
+            }
+            playerO = !playerO;
+            whoPlayedLabel.Text = playerO ? "O" : "X";
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            move++;
+            ((Button)sender).Text = playerO ? "O" : "X";
+            ((Button)sender).Enabled = false;
+            if (move >= 5)
+            {
+                Check();
+            }
+            playerO = !playerO;
+            whoPlayedLabel.Text = playerO ? "O" : "X";
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            move++;
+            ((Button)sender).Text = playerO ? "O" : "X";
+            ((Button)sender).Enabled = false;
+            if (move >= 5)
+            {
+                Check();
+            }
+            playerO = !playerO;
+            whoPlayedLabel.Text = playerO ? "O" : "X";
+        }
+
+        private void btn6_Click(object sender, EventArgs e)
+        {
+            move++;
+            ((Button)sender).Text = playerO ? "O" : "X";
+            ((Button)sender).Enabled = false;
+            if (move >= 5)
+            {
+                Check();
+            }
+            playerO = !playerO;
+            whoPlayedLabel.Text = playerO ? "O" : "X";
+        }
+
+        private void btn7_Click(object sender, EventArgs e)
+        {
+            move++;
+            ((Button)sender).Text = playerO ? "O" : "X";
+            ((Button)sender).Enabled = false;
+            if (move >= 5)
+            {
+                Check();
+            }
+            playerO = !playerO;
+            whoPlayedLabel.Text = playerO ? "O" : "X";
+        }
+
+        private void btn8_Click(object sender, EventArgs e)
+        {
+            move++;
+            ((Button)sender).Text = playerO ? "O" : "X";
+            ((Button)sender).Enabled = false;
+            if (move >= 5)
+            {
+                Check();
+            }
+            playerO = !playerO;
+            whoPlayedLabel.Text = playerO ? "O" : "X";
+        }
+
+        private void btn9_Click(object sender, EventArgs e)
+        {
+            move++;
+            ((Button)sender).Text = playerO ? "O" : "X";
+            ((Button)sender).Enabled = false;
+            if (move >= 5)
+            {
+                Check();
+            }
+            playerO = !playerO;
+            whoPlayedLabel.Text = playerO ? "O" : "X";
         }
     }
 }
